@@ -1,1 +1,1 @@
-Variaus ecosystem adapter from-to CRUVI interface
+Various ecosystem adapters from-to CRUVI interface
