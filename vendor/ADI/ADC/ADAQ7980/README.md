@@ -5,3 +5,4 @@ This LS CRUVI module with 16 bit ADC SiP is compatible with pretty much any host
 Features:
 * ADAQ7980 (optional ADAQ7988)
 * Single ended input SMA
+* No extra power supply required
