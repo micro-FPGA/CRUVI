@@ -2,7 +2,9 @@ Adapters for Bosch sensors in their "shuttle" format
 
 https://www.bosch-sensortec.com/bst/support_tools/application_boards/overview_application_boards
 
+Standard size: 20.32x43.18 ? 
 
+100 mil header like wide DIP28 package
 
 
 List of known boards
