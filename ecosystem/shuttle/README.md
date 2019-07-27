@@ -9,12 +9,12 @@ Standard size: 20.32x43.18 ?
 
 List of known boards
 
-|IC|COD|
-|--|---|
-|BMX160|011011000|
-|BMI270|110111000|
-|BMI085||
-|BMF055||
+|IC|COD|VDD|VDDIO|
+|--|---|--|--|
+|BMX160|011011000|1.7-3.6|1.2-3.6|
+|BMI270+BMM150|110111000|1.6-3.3|1.6-3.3|
+|BMI085||||
+|BMF055||||
 
 Info links
 https://www.mouser.de/datasheet/2/783/BST-BMF055-AN001-1509581.pdf
