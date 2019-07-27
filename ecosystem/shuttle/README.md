@@ -4,7 +4,9 @@ https://www.bosch-sensortec.com/bst/support_tools/application_boards/overview_ap
 
 Standard size: 20.32x43.18 ? 
 
-100 mil header like wide DIP28 package R2 adds empty location and 1 more pin
+100 mil header like wide DIP28 package 
+
+BMF055 adds empty location and 1 more pin - SWD debug
 
 
 List of known boards
