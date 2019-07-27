@@ -10,7 +10,7 @@ List of known boards
 |IC|COD|
 |--|---|
 |BMX160|011011000|
-|BMI270||
+|BMI270|110111000|
 |BMI085||
 |BMF055||
 
