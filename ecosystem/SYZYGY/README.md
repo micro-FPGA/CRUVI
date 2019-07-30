@@ -14,4 +14,4 @@ Passive adapter mapping from SYZYGY to CRUVI HS
 |P2C_CLK|VADJ IO TBD||
 |C2P_CLK|VADJ IO TBD||
 |n/a|ALERT|with level shifter to S27 ?|
-|R_GA|n/a|handled by locally by SmartVIO|
+|R_GA|n/a|handled locally by SmartVIO|
