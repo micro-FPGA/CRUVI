@@ -10,8 +10,8 @@ Passive adapter mapping from SYZYGY to CRUVI HS
 |SDA|SDA||
 |SCL|SCL||
 |S0..S23|VADJ IO TBD||
-|S24..S27|TBD||
-|P2C_CLK|VADJ IO TBD|VADJ IO|
-|C2P_CLK|VADJ IO TBD|VADJ IO|
+|S24..S27|TBD|?|
+|P2C_CLK|VADJ IO TBD||
+|C2P_CLK|VADJ IO TBD||
 |n/a|ALERT||
 |R_GA|n/a|handled by locally by SmartVIO|
