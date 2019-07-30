@@ -1,4 +1,4 @@
-Passive adapter from SYZYGY standard can fit one CRUVI HS connector almost completly so large number of CRUVI modules could be used with passive adapter.
+Passive adapter from SYZYGY standard can fit one CRUVI HS connector almost completly so large number of CRUVI modules could be used with passive adapter. Mechanically one standard with SYZYGY can hold a two single width or one dual CRUVI module.
 
 Passive adapter mapping from SYZYGY to CRUVI HS
 
