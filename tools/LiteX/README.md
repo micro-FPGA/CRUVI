@@ -1,6 +1,6 @@
 It is recommended for all FPGA host boards with CRUVI slots to provide LiteX platform support files.
 
-WiP list of platform provided at https://github.com/micro-FPGA/litex-boards
+WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 
 |Board|FPGA|Status|Test|
 |-----|----|--|--|
