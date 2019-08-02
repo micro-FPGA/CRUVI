@@ -2,11 +2,11 @@ It is recommended for all FPGA host boards with CRUVI slots to provide LiteX pla
 
 WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 
-|Board|FPGA|Status|Test|
-|-----|----|--|--|
-|TE0890 S7-mini|Spartan-7|beta|BIOS OK|
-|TE0714|Artix-7|wip | |
-|TE0725|Artix-7|wip | |
-|TE0741|Kintex-7|wip |Vivado build OK|
+|Board|FPGA|Status|Vivado build|Test|
+|-----|----|--|--|--|
+|TE0890 S7-mini|Spartan-7|beta|OK|OK|
+|TE0714|Artix-7|wip | | |
+|TE0725|Artix-7|wip | | |
+|TE0741|Kintex-7|wip |fail||
 
 
