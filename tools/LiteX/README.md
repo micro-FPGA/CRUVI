@@ -9,4 +9,6 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |TE0725|Artix-7|wip | | |
 |TE0741|Kintex-7|wip |pass||
 |MAX1000|MAX-10|wip|pass|OK|
+|CYC1000|Cyclone 10LP||||
+|C10LPRefKit|Cyclone 10LP||||
 
