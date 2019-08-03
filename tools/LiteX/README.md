@@ -5,6 +5,10 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |Board|FPGA|Status|FPGA build|Test|SDRAM|
 |-----|----|--|--|--|--|
 |TE0890 S7-mini|Spartan-7|beta|OK|OK|-|
+|TE0710|Artix-7|wip | | |n/a|
+|TE0711|Artix-7|wip | | |n/a|
+|TE0712|Artix-7|wip | | |n/a|
+|TE0713|Artix-7|wip | | |n/a|
 |TE0714|Artix-7|wip | | |n/a|
 |TE0725|Artix-7|wip | | |-|
 |TE0741|Kintex-7|wip |pass||n/a|
