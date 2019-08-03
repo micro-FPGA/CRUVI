@@ -16,3 +16,8 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |C10LPRefKit|Cyclone 10LP|||||
 
 Boards with HyperRAM are not currently supporting external RAM with LiteX
+
+Note: building for MAX10 10M08 requires manual post-patching of top.v due to bug in LiteX
+
+https://github.com/enjoy-digital/litex/issues/228
+
