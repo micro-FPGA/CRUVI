@@ -1,4 +1,4 @@
-It is recommended for all FPGA host boards with CRUVI slots to provide LiteX platform support files.
+It is recommended for all FPGA host boards with CRUVI slots provide LiteX platform support files.
 
 WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 
