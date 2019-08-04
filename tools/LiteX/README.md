@@ -12,12 +12,12 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |TE0714         |Artix-7     |wip |     | | |n/a|
 |TE0725         |Artix-7     |wip |     | | |-hyper|
 |TE0741         |Kintex-7    |wip |?    |pass||n/a|
-|MAX1000        |MAX-10      |wip |min  |pass|OK|OK|
+|MAX1000        |MAX-10      |wip |min  |OK|OK|OK|
 |AnalogMAX      |MAX-10      |    |min  ||||
 |AnalogMAX DAQ1 |MAX-10      |    |min  ||||
 |AnalogMAX DAQ2 |MAX-10      |    |min  ||||
 |CYC1000        |Cyclone 10LP|    |?    ||||
-|C10LPRefKit    |Cyclone 10LP|wip |full |pass|OK|OK|
+|C10LPRefKit    |Cyclone 10LP|wip |full |OK|OK|OK|
 |TEI0006        |Cyclone 10GX|    |     ||||
 
 Boards with HyperRAM are not currently supporting external RAM with LiteX
