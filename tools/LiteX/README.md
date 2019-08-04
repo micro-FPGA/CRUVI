@@ -11,12 +11,12 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |TE0713         |Artix-7     |wip |     | | | |
 |TE0714         |Artix-7     |wip |     | | |n/a|
 |TE0725         |Artix-7     |wip |     | | |-hyper|
-|TE0741         |Kintex-7    |wip |min  |pass||n/a|
-|MAX1000        |MAX-10      |wip |     |pass|OK|OK|
-|AnalogMAX      |MAX-10      |    |     ||||
-|AnalogMAX DAQ1 |MAX-10      |    |     ||||
-|AnalogMAX DAQ2 |MAX-10      |    |     ||||
-|CYC1000        |Cyclone 10LP|    |     ||||
+|TE0741         |Kintex-7    |wip |?    |pass||n/a|
+|MAX1000        |MAX-10      |wip |min  |pass|OK|OK|
+|AnalogMAX      |MAX-10      |    |min  ||||
+|AnalogMAX DAQ1 |MAX-10      |    |min  ||||
+|AnalogMAX DAQ2 |MAX-10      |    |min  ||||
+|CYC1000        |Cyclone 10LP|    |?    ||||
 |C10LPRefKit    |Cyclone 10LP|wip |lite |pass|OK|OK|
 |TEI0006        |Cyclone 10GX|    |     ||||
 
