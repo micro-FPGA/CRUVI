@@ -31,7 +31,9 @@ LiteX on Windows (no WSL) quick howto:
 * clone and install LiteX
 * get and install https://gnu-mcu-eclipse.github.io/toolchain/riscv/install/
 * in file C:\Python37\Lib\site-packages\litex-0.2.dev0-py3.7.egg\litex\soc\cores\cpu\vexriscv\core.py change
-#        return ("riscv64-unknown-elf", "riscv32-unknown-elf")
+
+        return ("riscv64-unknown-elf", "riscv32-unknown-elf")
+to >>>        
         return ("riscv-none-embed", "riscv-none-embed")
 * make sure the riscv toolchanin is also on the path
 
