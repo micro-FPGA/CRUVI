@@ -27,3 +27,5 @@ Note: building for MAX10 10M08 requires manual post-patching of top.v due to bug
 
 https://github.com/enjoy-digital/litex/issues/228
 
+Note: do not select "linux" variant when build the bitstreams, different memory map makes the design not bootable
+
