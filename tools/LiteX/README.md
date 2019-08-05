@@ -37,6 +37,6 @@ to >>>
 
         return ("riscv-none-embed", "riscv-none-embed")
         
-* make sure the riscv toolchanin is also on the path
+* make sure the riscv toolchain riscv-none-embed is also on the path
 * build your LiteX SoC as usual
 
