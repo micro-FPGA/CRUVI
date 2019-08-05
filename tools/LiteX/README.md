@@ -26,7 +26,7 @@ Boards with HyperRAM are not currently supporting external RAM with LiteX
 Note: do not select "linux" variant when build the bitstreams, different memory map makes the design not bootable
 
 LiteX on Windows (no WSL) quick howto:
-* Make sure Python 3.7 is installed
+* Make sure Python 3.7 is installed (maybe need copy python.exe to python3.exe)
 * Make sure you have gnu make, and Quartus, Vivado on the path
 * clone and install LiteX and this repo
 * get and install https://gnu-mcu-eclipse.github.io/toolchain/riscv/install/
