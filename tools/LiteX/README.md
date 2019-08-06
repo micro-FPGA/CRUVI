@@ -18,7 +18,7 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |AnalogMAX DAQ1 |MAX-10      |    |min  ||||n/a|
 |AnalogMAX DAQ2 |MAX-10      |    |min  ||||n/a|
 |CYC1000        |Cyclone 10LP|    |?    ||||-|
-|C10LPRefKit    |Cyclone 10LP|wip |full |OK|OK|OK|OK|
+|C10LPRefKit    |Cyclone 10LP|wip |full* |OK|OK|OK|OK|
 |TEI0006        |Cyclone 10GX|    |     ||||?|
 
 Boards with HyperRAM are not currently supporting external RAM with LiteX
