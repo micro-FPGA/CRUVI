@@ -40,3 +40,16 @@ to >>>
 * make sure the riscv toolchain riscv-none-embed is also on the path
 * build your LiteX SoC as usual
 
+for Linux use make.py from
+
+https://github.com/micro-FPGA/linux-on-litex-vexriscv
+
+and prebuilt linux images from
+
+https://github.com/litex-hub/linux-on-litex-vexriscv-prebuilt
+
+
+
+
+
+
