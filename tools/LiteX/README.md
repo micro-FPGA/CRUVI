@@ -23,7 +23,7 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 
 Boards with HyperRAM are not currently supporting external RAM with LiteX
 
-Note: do not select "linux" variant when build the bitstreams, different memory map makes the design not bootable
+Note: do not select "linux" variant when building bitstreams, different memory map makes the design not bootable
 
 LiteX on Windows (no WSL) quick howto:
 * Make sure Python 3.7 is installed (maybe need copy python.exe to python3.exe)
