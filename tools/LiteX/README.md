@@ -4,6 +4,7 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 
 | Board         | FPGA       |Stat|variant|FPGA build|Test|SDRAM|Linux|
 |---------------|------------|----|-----|-|-|--|--|
+|CR00010        |MAX-10      |wip |min  ||||opt*|
 |TE0890 S7-mini |Spartan-7   |beta|min  |OK|OK|-hyper|n/a|
 |MEGA65         |Artix-7     |    |     | | | |n/a|
 |TE0710         |Artix-7     |wip |full |pass| | |-|
@@ -13,11 +14,11 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |TE0714         |Artix-7     |wip |     | | |n/a|n/a|
 |TE0725         |Artix-7     |wip |     | | |-hyper|n/a|
 |TE0741         |Kintex-7    |wip |?    |pass||n/a|n/a|
-|MAX1000        |MAX-10      |wip |min  |OK|OK|OK|?|
+|MAX1000        |MAX-10      |wip |min  |OK|OK|OK|opt*|
 |AnalogMAX      |MAX-10      |    |min  ||||n/a|
 |AnalogMAX DAQ1 |MAX-10      |    |min  ||||n/a|
 |AnalogMAX DAQ2 |MAX-10      |    |min  ||||n/a|
-|CYC1000        |Cyclone 10LP|wip |full |OK|OK|OK|-|
+|CYC1000        |Cyclone 10LP|wip |full |OK|OK|OK|opt*|
 |C10LPRefKit    |Cyclone 10LP|wip |full* |OK|OK|OK|OK|
 |TEI0006        |Cyclone 10GX|    |     ||||?|
 
