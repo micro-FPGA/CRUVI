@@ -21,7 +21,8 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |CYC1000        |Cyclone 10LP|wip |full |OK|OK|OK|opt*|
 |C10LPRefKit    |Cyclone 10LP|wip |full* |OK|OK|OK|OK|
 |TEI0006        |Cyclone 10GX|    |     ||||?|
-|TEM0004        |SmartFusion2|    |     |||||
+|TEM0001        |SmartFusion2|    |     |||||
+|TEM0002        |SmartFusion2|    |     |||||
 |TEM0006        |PolarFire|    |     |||||
 
 Boards with HyperRAM are not currently supporting external RAM with LiteX
