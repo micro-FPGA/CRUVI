@@ -12,7 +12,7 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |TE0712         |Artix-7     |wip |     | | | |-|
 |TE0713         |Artix-7     |wip |     | | | |-|
 |TE0714         |Artix-7     |wip |     | | |n/a|n/a|
-|TE0725         |Artix-7     |wip |     | | |-hyper|n/a|
+|TE0725         |Artix-7     |wip |     |pass| |-hyper|n/a|
 |TE0741         |Kintex-7    |wip |?    |pass||n/a|n/a|
 |MAX1000        |MAX-10      |wip |min  |OK|OK|OK|opt*|
 |AnalogMAX      |MAX-10      |    |min  ||||n/a|
