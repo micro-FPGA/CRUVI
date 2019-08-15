@@ -6,7 +6,7 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |---------------|------------|----|-----|-|-|--|--|--|
 |CR00010        |MAX-10      |wip |min  ||||opt*|n/a|
 |TE0890 S7-mini |Spartan-7   |beta|min  |OK|OK|Hyper|n/a|n/a|
-|[MEGA65](http://mega65.org/) |Artix-7     ||full|OK|OK|-hyper|n/a||
+|[MEGA65](http://mega65.org/) |Artix-7     ||full|OK|OK|Hyper|n/a||
 |TE0710         |Artix-7     |wip |full |pass| | |-||
 |TE0711         |Artix-7     |wip |full |OK|OK|n/a|n/a|n/a|
 |TE0712         |Artix-7     |wip |     | | | |-||
