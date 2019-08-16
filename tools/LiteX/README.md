@@ -24,6 +24,7 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |AnalogMAX DAQ2 |MAX-10      |    |min  ||||n/a|n/a|
 |CYC1000        |Cyclone 10LP|wip |full |OK|OK|OK|opt*|n/a|
 |C10LPRefKit    |Cyclone 10LP|wip |full* |OK|OK|SDR+Hyp|OK|OK|
+|C10LP EK  t    |Cyclone 10LP|wip |lite|OK|OK|Hyper|n/a||
 |TEI0006        |Cyclone 10GX|    |     ||||?||
 |TEM0001        |SmartFusion2|    |     |||||n/a|
 |TEM0002        |SmartFusion2|    |     ||||||
