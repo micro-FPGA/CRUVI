@@ -28,7 +28,7 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |TEM0001        |SmartFusion2|    |     |||||n/a|
 |TEM0002        |SmartFusion2|    |     ||||||
 |TEM0006        |PolarFire|    |     ||||||
-|TEM0007        |PolarFireSoC|    |     ||||||
+|TEM0007        |PolarFireSoC|20Q1|     ||||||
 
 
 Boards with HyperRAM are not currently supporting external RAM with LiteX
