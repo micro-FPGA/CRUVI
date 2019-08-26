@@ -28,7 +28,7 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |[SoCkit](https://www.arrow.com/en/products/sockit/arrow-development-tools) |CycloneV SoC|wip |lite|OK|blink||||
 |TEI0006        |Cyclone 10GX|    |     ||||?||
 |TEM0001        |SmartFusion2|    |     |||||n/a|
-|TEM0002        |SmartFusion2|    |     ||||||
+|SMF2000        |SmartFusion2|    |lite|OK|OK|OK|n/a|n/a|
 |TEM0006        |PolarFire|    |     ||||||
 |TEM0007        |PolarFireSoC|20Q1|     ||||||
 
