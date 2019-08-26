@@ -33,8 +33,6 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |TEM0007        |PolarFireSoC|20Q1|     ||||||
 
 
-Boards with HyperRAM are not currently supporting external RAM with LiteX
-
 Note: do not select "linux" variant when building bitstreams, different memory map makes the design not bootable
 
 LiteX on Windows (no WSL) quick howto:
