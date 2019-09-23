@@ -9,10 +9,10 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |CR00071        |PolarFireSoC|20Q1|  ||||+||
 |TE0890 S7-mini |Spartan-7   |beta|min  |OK|OK|Hyper|n/a|n/a|
 |[MEGA65](http://mega65.org/) |Artix-7     ||full|OK|OK|Hyper|n/a|OK|
-|TE0710         |Artix-7     |wip |full |pass| | |-||
+|TE0710         |Artix-7     |wip |full |pass| | |||
 |TE0711         |Artix-7     |wip |full |OK|OK|n/a|n/a|n/a|
-|TE0712         |Artix-7     |wip |     | | | |-||
-|TE0713         |Artix-7     |wip |     | | | |-|n/a|
+|TE0712         |Artix-7     |wip |     | | | |||
+|TE0713         |Artix-7     |wip |     | | | ||n/a|
 |TE0714         |Artix-7     |wip |     | | |n/a|n/a|n/a|
 |TE0725         |Artix-7     |wip |full |OK|OK|Hyper|n/a|n/a|
 |TE0741         |Kintex-7    |wip |?    |pass||n/a|n/a|n/a|
