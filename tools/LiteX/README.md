@@ -4,7 +4,7 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 
 | Board         | FPGA       |Stat|variant|FPGA build|Test|SDRAM|Linux|ETH|
 |---------------|------------|----|-----|-|-|--|--|--|
-|CR00010        |MAX-10      |wip |min  ||||opt*|n/a|
+|CR00010        |MAX-10      |wip |min  |||OK|opt*|n/a|
 |CR00070        |PolarFire   | |  ||||+||
 |CR00071        |PolarFireSoC|20Q1|  ||||+||
 |TE0890 S7-mini |Spartan-7   |beta|min  |OK|OK|Hyper|n/a|n/a|
