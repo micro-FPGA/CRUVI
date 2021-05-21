@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=CR00001.OutJob
+Name=CR99001.OutJob
 Description=
 TargetOutputMedium=Publish To PDF
 VariantName=[No Variations]
@@ -144,11 +144,11 @@ OutputVariantName8=1
 OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
-OutputEnabled8_OutputMedium3=5
+OutputEnabled8_OutputMedium3=4
 OutputEnabled8_OutputMedium4=0
 OutputEnabled8_OutputMedium5=0
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=7.06|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=9.33|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=DesignatorDisplayMode=Logical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration8_Name2=OutputConfigurationParameter2
@@ -176,11 +176,11 @@ OutputVariantName9=1
 OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
-OutputEnabled9_OutputMedium3=6
+OutputEnabled9_OutputMedium3=5
 OutputEnabled9_OutputMedium4=0
 OutputEnabled9_OutputMedium5=0
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=14.11|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=11.31|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration9_Name1=OutputConfigurationParameter1
 Configuration9_Item1=DesignatorDisplayMode=Logical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration9_Name2=OutputConfigurationParameter2
@@ -258,34 +258,48 @@ OutputType12=Schematic Print
 OutputName12=SCH
 OutputCategory12=Documentation
 OutputDocumentPath12=[Project Physical Documents]
-OutputVariantName12=1
+OutputVariantName12=0
 OutputEnabled12=1
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
-OutputEnabled12_OutputMedium3=4
+OutputEnabled12_OutputMedium3=6
 OutputEnabled12_OutputMedium4=0
 OutputEnabled12_OutputMedium5=0
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration12_Name1=OutputConfigurationParameter1
 Configuration12_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
-OutputType13=Schematic Print
-OutputName13=SCH
-OutputCategory13=Documentation
-OutputDocumentPath13=[Project Physical Documents]
+OutputType13=BOM_PartType
+OutputName13=BOM
+OutputCategory13=Report
+OutputDocumentPath13=
 OutputVariantName13=0
-OutputEnabled13=1
+OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
-OutputEnabled13_OutputMedium3=7
+OutputEnabled13_OutputMedium3=0
 OutputEnabled13_OutputMedium4=0
-OutputEnabled13_OutputMedium5=0
+OutputEnabled13_OutputMedium5=3
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-Configuration13_Name1=OutputConfigurationParameter1
-Configuration13_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
+Configuration13_Name1=ColumnNameFormat
+Configuration13_Item1=CaptionAsName
+Configuration13_Name2=Filter
+Configuration13_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration13_Name3=General
+Configuration13_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1539|FormHeight=897|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration13_Name4=GroupOrder
+Configuration13_Item4=AN=True
+Configuration13_Name5=OutputConfigurationParameter1
+Configuration13_Item5=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
+Configuration13_Name6=PCBDocument
+Configuration13_Item6=FileName=CR00001.PcbDoc
+Configuration13_Name7=SortOrder
+Configuration13_Item7=Designator=Up|Comment=Up|Footprint=Up
+Configuration13_Name8=VisibleOrder
+Configuration13_Item8=AN=51|Quantity=49|Designator=56|Comment=125|Description=68|Case=51|Value=51|Footprint=53|Revision=39|Variant=40|Trenz-Stock=36|Mixed=87|Preferred=87|Technology=87|Tolerance=87|Trenz-Article-Number=87|Voltage=87|H-ART=63|Temperature-Range=118|Storage-Temperature=100
 OutputType14=BOM_PartType
-OutputName14=BOM
+OutputName14=PP
 OutputCategory14=Report
 OutputDocumentPath14=
 OutputVariantName14=0
@@ -294,7 +308,7 @@ OutputEnabled14_OutputMedium1=0
 OutputEnabled14_OutputMedium2=0
 OutputEnabled14_OutputMedium3=0
 OutputEnabled14_OutputMedium4=0
-OutputEnabled14_OutputMedium5=3
+OutputEnabled14_OutputMedium5=4
 OutputDefault14=0
 PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration14_Name1=ColumnNameFormat
@@ -302,46 +316,17 @@ Configuration14_Item1=CaptionAsName
 Configuration14_Name2=Filter
 Configuration14_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration14_Name3=General
-Configuration14_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1539|FormHeight=897|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration14_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1129|FormHeight=1045|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration14_Name4=GroupOrder
-Configuration14_Item4=AN=True
+Configuration14_Item4=
 Configuration14_Name5=OutputConfigurationParameter1
 Configuration14_Item5=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
 Configuration14_Name6=PCBDocument
 Configuration14_Item6=FileName=CR00001.PcbDoc
 Configuration14_Name7=SortOrder
-Configuration14_Item7=Designator=Up|Comment=Up|Footprint=Up
+Configuration14_Item7=
 Configuration14_Name8=VisibleOrder
-Configuration14_Item8=AN=51|Quantity=49|Designator=56|Comment=125|Description=68|Case=51|Value=51|Footprint=53|Revision=39|Variant=40|Trenz-Stock=36|Mixed=87|Preferred=87|Technology=87|Tolerance=87|Trenz-Article-Number=87|Voltage=87|H-ART=63|Temperature-Range=118|Storage-Temperature=100
-OutputType15=BOM_PartType
-OutputName15=PP
-OutputCategory15=Report
-OutputDocumentPath15=
-OutputVariantName15=0
-OutputEnabled15=0
-OutputEnabled15_OutputMedium1=0
-OutputEnabled15_OutputMedium2=0
-OutputEnabled15_OutputMedium3=0
-OutputEnabled15_OutputMedium4=0
-OutputEnabled15_OutputMedium5=4
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-Configuration15_Name1=ColumnNameFormat
-Configuration15_Item1=CaptionAsName
-Configuration15_Name2=Filter
-Configuration15_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration15_Name3=General
-Configuration15_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1129|FormHeight=1045|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration15_Name4=GroupOrder
-Configuration15_Item4=
-Configuration15_Name5=OutputConfigurationParameter1
-Configuration15_Item5=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
-Configuration15_Name6=PCBDocument
-Configuration15_Item6=FileName=CR00001.PcbDoc
-Configuration15_Name7=SortOrder
-Configuration15_Item7=
-Configuration15_Name8=VisibleOrder
-Configuration15_Item8=Center-X(mm)=100|Center-Y(mm)=100|Comment=100|Description=100|Designator=100|Footprint=100|Layer=100|LibRef=100|Quantity=100|Rotation=100|Variant=100|Revision=100|Trenz-Stock=100|Value=100|AN=100|Case=100|Mixed=100|Preferred=100|Technology=100|Tolerance=100|Trenz-Article-Number=100|Voltage=100|Ref-X(mm)=100|Ref-Y(mm)=100
+Configuration14_Item8=Center-X(mm)=100|Center-Y(mm)=100|Comment=100|Description=100|Designator=100|Footprint=100|Layer=100|LibRef=100|Quantity=100|Rotation=100|Variant=100|Revision=100|Trenz-Stock=100|Value=100|AN=100|Case=100|Mixed=100|Preferred=100|Technology=100|Tolerance=100|Trenz-Article-Number=100|Voltage=100|Ref-X(mm)=100|Ref-Y(mm)=100
 
 [PublishSettings]
 OutputFilePath2=B:\SVN\OtherDoc\Vorlagen\PRJ-TE0723\current\hw\pcb\Project Outputs for TE0723\
@@ -393,8 +378,6 @@ MarkPortsId3=1
 GenerateTOC3=1
 ShowComponentParameters3=1
 GlobalBookmarks3=0
-PDFACompliance3=Disabled
-PDFVersion3=Default
 OutputFilePath4=B:\SVN\osh\CRUVI\CR00001\current\hw\pcb\manufacturing reports\
 ReleaseManaged4=0
 OutputBasePath4=manufacturing reports\
