@@ -30,7 +30,7 @@ WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 |SMF2000        |SmartFusion2|    |lite|OK|OK|OK|n/a|n/a|
 |SmartBerry     |SmartFusion2|    |     ||||||
 |TEM0006        |PolarFire|    |     ||||||
-|TEM0007        |PolarFireSoC|20Q1|     ||||||
+|TEM0007        |PolarFireSoC|     ||||||
 
 
 Note: do not select "linux" variant when building bitstreams, different memory map makes the design not bootable
