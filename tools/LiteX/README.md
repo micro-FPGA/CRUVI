@@ -2,6 +2,9 @@ It is recommended for all FPGA host boards with CRUVI slots provide LiteX platfo
 
 WiP list of platforms provided at https://github.com/micro-FPGA/litex-boards
 
+NOTE: This github fork is no longer maintained, new boards will be integrated with Litex directly.
+
+
 | Board         | FPGA       |Stat|variant|FPGA build|Test|SDRAM|Linux|ETH|
 |---------------|------------|----|-----|-|-|--|--|--|
 |CR00010        |MAX-10      |wip |min  |||OK|opt*|n/a|
