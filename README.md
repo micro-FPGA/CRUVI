@@ -1,5 +1,5 @@
 # CRUVI
-CRUVI Standard Specifications
+CRUVI Standard Specifications in docs
 
 Added DCO (Developers Certificate of Origin)
 
