@@ -1,0 +1,485 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=CR00103.OutJob
+Description=
+TargetOutputMedium=Publish To PDF
+VariantName=[No Variations]
+VariantScope=0
+CurrentConfigurationName=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
+OutputMedium1=Print To Brother MFC-8840D
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=Publish To PDF
+OutputMedium2_Type=Publish
+OutputMedium3=Publish To Web
+OutputMedium3_Type=PublishToWeb
+OutputMedium4=Gerber data
+OutputMedium4_Type=GeneratedFiles
+OutputMedium5=BOM, PP and STEP model files
+OutputMedium5_Type=GeneratedFiles
+OutputType1=Gerber
+OutputName1=LPCR
+OutputCategory1=Fabrication
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=0
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=1
+OutputEnabled1_OutputMedium5=0
+OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908294~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=True|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777219~1,16777218~1,16777220~1,16777224~1,16777225~1,16777226~1,16777221~1,16777222~1,16842751~1,16973835~1,16973833~1,16973831~1,16908294~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=B:\SVN\osh\CRUVI\CR00103\current\hw\pcb\CR00103.PcbDoc
+OutputType2=NC Drill
+OutputName2=LPCR
+OutputCategory2=Fabrication
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=2
+OutputEnabled2_OutputMedium5=0
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=B:\SVN\osh\CRUVI\CR00103\current\hw\pcb\CR00103.PcbDoc
+OutputType3=PCB 3D Print
+OutputName3=3DT
+OutputCategory3=Documentation
+OutputDocumentPath3=
+OutputVariantName3=
+OutputEnabled3=1
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=3
+OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=0
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.13|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=35215392|ViewY=26443510|LookAtX=81241264|LookAtY=55259524|LookAtZ=-20779.458984375|UpX=0.0855119004845619|UpY=0.986521363258362|UpZ=-0.139510437846184|FOV=45|QuatX=-0.213103830814362|QuatY=0.175862357020378|QuatZ=-0.0272602513432503|QuatW=0.960685253143311|Zoom=3.91022211421487E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=True|ViewFromTop=True|ScreenWidth=1377|ScreenHeight=1034|ImageOutputType=1|ViewConfig= |DocumentPath=B:\SVN\osh\CRUVI\CR00103\current\hw\pcb\CR00103.PcbDoc
+OutputType4=PCB 3D Print
+OutputName4=3DB
+OutputCategory4=Documentation
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=4
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=0
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.13|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=35215392|ViewY=26443512|LookAtX=81258416|LookAtY=55259524|LookAtZ=20779.458984375|UpX=0.0225768033415079|UpY=0.907687366008759|UpZ=0.419039517641068|FOV=45|QuatX=0.0272603090852499|QuatY=-0.960685253143311|QuatZ=-0.213103801012039|QuatW=0.175862327218056|Zoom=3.91022186921457E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=True|ViewFromTop=False|ScreenWidth=1377|ScreenHeight=1034|ImageOutputType=1|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFGALL.COMPONENTBODYREFPOINTCOLOR\316777215\2CFGALL.COMPONENTBODYSNAPPOINTCOLOR\316777215\2CFGALL.SHOWCOMPONENTSNAPMARKERS\3FALSE\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3TRUE\2CFG3D.SHOWCOMPONENTSTEPMODELS\3TRUE\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\33307556\2CFG3D.BOTSOLDERMASKCOLOR\33307556\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACEBEGINCOLOR\316777215\2CFG3D.WORKSPACEENDCOLOR\314671839\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.500000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000|DocumentPath=B:\SVN\osh\CRUVI\CR00103\current\hw\pcb\CR00103.PcbDoc
+OutputType5=ExportSTEP
+OutputName5=STP
+OutputCategory5=Export
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=0
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=1|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=B:\SVN\osh\CRUVI\CR00103\current\hw\pcb\CR00103.PcbDoc
+OutputType6=ODB
+OutputName6=LPCR
+OutputCategory6=Fabrication
+OutputDocumentPath6=
+OutputVariantName6=
+OutputEnabled6=0
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=3
+OutputEnabled6_OutputMedium5=0
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots_Assembly Bot-GM14=False|AddToAllPlots_Assembly Top-GM13=False|AddToAllPlots_Courtyard Bot-GM16=False|AddToAllPlots_Courtyard Top-GM15=False|AddToAllPlots_Dim-Bot2-GM8=False|AddToAllPlots_Dim-Bot-GM2=False|AddToAllPlots_Dim-Top2-GM7=False|AddToAllPlots_Dim-Top-GM1=False|AddToAllPlots_Fab-Notes-GM5=False|AddToAllPlots_Mechanical 10=False|AddToAllPlots_Mechanical 9=False|AddToAllPlots_PCB-Outline-GM6=False|AddToAllPlots_Print-Bot-GM4=False|AddToAllPlots_Print-Top-GM3=False|AddToAllPlots_Size Bot-GM12=False|AddToAllPlots_Size Top-GM11=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|LayerClassesPlot.Set= |ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=62|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=False|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=False|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=True|PlotMidLayer4Plot=True|PlotMidLayer5Plot=True|PlotMidLayer6Plot=True|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=False|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+OutputType7=Schematic Print
+OutputName7=SCH
+OutputCategory7=Documentation
+OutputDocumentPath7=[Project Physical Documents]
+OutputVariantName7=A
+OutputEnabled7=1
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=1
+OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=0
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration7_Name1=OutputConfigurationParameter1
+Configuration7_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|DocumentPath=[Project Physical Documents]
+OutputType8=BOM_PartType
+OutputName8=BOM
+OutputCategory8=Report
+OutputDocumentPath8=
+OutputVariantName8=A
+OutputEnabled8=0
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium3=0
+OutputEnabled8_OutputMedium4=0
+OutputEnabled8_OutputMedium5=1
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration8_Name1=ColumnNameFormat
+Configuration8_Item1=CaptionAsName
+Configuration8_Name2=Filter
+Configuration8_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration8_Name3=General
+Configuration8_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1129|FormHeight=829|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration8_Name4=GroupOrder
+Configuration8_Item4=AN=True
+Configuration8_Name5=OutputConfigurationParameter1
+Configuration8_Item5=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|DocumentPath=[Project]
+Configuration8_Name6=PCBDocument
+Configuration8_Item6=FileName=CR00010.PcbDoc
+Configuration8_Name7=PCBDocument2
+Configuration8_Item7=FileName=[PCB Document 1]
+Configuration8_Name8=SortOrder
+Configuration8_Item8=
+Configuration8_Name9=VisibleOrder
+Configuration8_Item9=AN=55|Quantity=53|Designator=60|Comment=321|Description=60|Case=45|Value=45|Footprint=47|Revision=34|Variant=35|Trenz-Stock=32|Mixed=76|Preferred=76|Technology=76|Tolerance=76|Trenz-Article-Number=76|Voltage=76|H-ART=79|Storage-Temperature=100|Temperature-Range=100
+OutputType9=BOM_PartType
+OutputName9=PP
+OutputCategory9=Report
+OutputDocumentPath9=
+OutputVariantName9=A
+OutputEnabled9=0
+OutputEnabled9_OutputMedium1=0
+OutputEnabled9_OutputMedium2=0
+OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium4=0
+OutputEnabled9_OutputMedium5=2
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration9_Name1=ColumnNameFormat
+Configuration9_Item1=CaptionAsName
+Configuration9_Name2=Filter
+Configuration9_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration9_Name3=General
+Configuration9_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1129|FormHeight=829|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration9_Name4=GroupOrder
+Configuration9_Item4=
+Configuration9_Name5=OutputConfigurationParameter1
+Configuration9_Item5=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|DocumentPath=[Project]
+Configuration9_Name6=PCBDocument
+Configuration9_Item6=FileName=CR00010.PcbDoc
+Configuration9_Name7=PCBDocument2
+Configuration9_Item7=FileName=[PCB Document 1]
+Configuration9_Name8=SortOrder
+Configuration9_Item8=
+Configuration9_Name9=VisibleOrder
+Configuration9_Item9=Center-X(mm)=100|Center-Y(mm)=100|Comment=100|Description=100|Designator=100|Footprint=100|Layer=100|LibRef=100|Quantity=100|Rotation=100|Variant=100|Revision=100|Trenz-Stock=100|Value=100|AN=100|Case=100|Mixed=100|Preferred=100|Technology=100|Tolerance=100|Trenz-Article-Number=100|Voltage=100|Ref-X(mm)=100|Ref-Y(mm)=100|H-ART=100|Storage-Temperature=100|Temperature-Range=100
+OutputType10=EDIF
+OutputName10=EDIF-CR00100-01
+OutputCategory10=Netlist
+OutputDocumentPath10=
+OutputVariantName10=
+OutputEnabled10=0
+OutputEnabled10_OutputMedium1=0
+OutputEnabled10_OutputMedium2=0
+OutputEnabled10_OutputMedium3=0
+OutputEnabled10_OutputMedium4=0
+OutputEnabled10_OutputMedium5=0
+OutputDefault10=0
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=NetlistVersion=0|Record=EdifView
+OutputType11=Assembly
+OutputName11=DIM
+OutputCategory11=Assembly
+OutputDocumentPath11=
+OutputVariantName11=
+OutputEnabled11=1
+OutputEnabled11_OutputMedium1=0
+OutputEnabled11_OutputMedium2=5
+OutputEnabled11_OutputMedium3=0
+OutputEnabled11_OutputMedium4=0
+OutputEnabled11_OutputMedium5=0
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.13|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration11_Name1=OutputConfigurationParameter1
+Configuration11_Item1=DesignatorDisplayMode=Logical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration11_Name2=OutputConfigurationParameter2
+Configuration11_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Dimension Top|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=True|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration11_Name3=OutputConfigurationParameter3
+Configuration11_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration11_Name4=OutputConfigurationParameter4
+Configuration11_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration11_Name5=OutputConfigurationParameter5
+Configuration11_Item5=CArc=Full|CFill=Full|Comment=Hidden|Coordinate=Full|CPad=Full|CRegion=Full|CText=Hidden|CTrack=Full|CVia=Full|Designator=Hidden|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Hidden|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Hidden|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration11_Name6=OutputConfigurationParameter6
+Configuration11_Item6=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=Dimension Bot|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=True|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration11_Name7=OutputConfigurationParameter7
+Configuration11_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration11_Name8=OutputConfigurationParameter8
+Configuration11_Item8=CArc=Full|CFill=Full|Comment=Hidden|Coordinate=Full|CPad=Full|CRegion=Full|CText=Hidden|CTrack=Full|CVia=Full|Designator=Hidden|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Hidden|FTrack=Full|FVia=Full|Layer=Mechanical14|Polygon=Hidden|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration11_Name9=OutputConfigurationParameter9
+Configuration11_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+PcbPrintPreferences11=
+OutputType12=Schematic Print
+OutputName12=SCH
+OutputCategory12=Documentation
+OutputDocumentPath12=[Project Physical Documents]
+OutputVariantName12=S001
+OutputEnabled12=1
+OutputEnabled12_OutputMedium1=0
+OutputEnabled12_OutputMedium2=2
+OutputEnabled12_OutputMedium3=0
+OutputEnabled12_OutputMedium4=0
+OutputEnabled12_OutputMedium5=0
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration12_Name1=OutputConfigurationParameter1
+Configuration12_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|DocumentPath=[Project Physical Documents]
+OutputType13=BOM_PartType
+OutputName13=BOM
+OutputCategory13=Report
+OutputDocumentPath13=
+OutputVariantName13=S001
+OutputEnabled13=0
+OutputEnabled13_OutputMedium1=0
+OutputEnabled13_OutputMedium2=0
+OutputEnabled13_OutputMedium3=0
+OutputEnabled13_OutputMedium4=0
+OutputEnabled13_OutputMedium5=3
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration13_Name1=ColumnNameFormat
+Configuration13_Item1=CaptionAsName
+Configuration13_Name2=Filter
+Configuration13_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration13_Name3=General
+Configuration13_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1129|FormHeight=829|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration13_Name4=GroupOrder
+Configuration13_Item4=AN=True
+Configuration13_Name5=OutputConfigurationParameter1
+Configuration13_Item5=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|DocumentPath=[Project]
+Configuration13_Name6=PCBDocument
+Configuration13_Item6=FileName=CR00010.PcbDoc
+Configuration13_Name7=PCBDocument2
+Configuration13_Item7=FileName=[PCB Document 1]
+Configuration13_Name8=SortOrder
+Configuration13_Item8=
+Configuration13_Name9=VisibleOrder
+Configuration13_Item9=AN=55|Quantity=53|Designator=60|Comment=321|Description=60|Case=45|Value=45|Footprint=47|Revision=34|Variant=35|Trenz-Stock=32|Mixed=76|Preferred=76|Technology=76|Tolerance=76|Trenz-Article-Number=76|Voltage=76|H-ART=79|Storage-Temperature=100|Temperature-Range=100
+OutputType14=BOM_PartType
+OutputName14=PP
+OutputCategory14=Report
+OutputDocumentPath14=
+OutputVariantName14=S001
+OutputEnabled14=0
+OutputEnabled14_OutputMedium1=0
+OutputEnabled14_OutputMedium2=0
+OutputEnabled14_OutputMedium3=0
+OutputEnabled14_OutputMedium4=0
+OutputEnabled14_OutputMedium5=4
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration14_Name1=ColumnNameFormat
+Configuration14_Item1=CaptionAsName
+Configuration14_Name2=Filter
+Configuration14_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration14_Name3=General
+Configuration14_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1129|FormHeight=829|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration14_Name4=GroupOrder
+Configuration14_Item4=
+Configuration14_Name5=OutputConfigurationParameter1
+Configuration14_Item5=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|DocumentPath=[Project]
+Configuration14_Name6=PCBDocument
+Configuration14_Item6=FileName=CR00010.PcbDoc
+Configuration14_Name7=PCBDocument2
+Configuration14_Item7=FileName=[PCB Document 1]
+Configuration14_Name8=SortOrder
+Configuration14_Item8=
+Configuration14_Name9=VisibleOrder
+Configuration14_Item9=Center-X(mm)=100|Center-Y(mm)=100|Comment=100|Description=100|Designator=100|Footprint=100|Layer=100|LibRef=100|Quantity=100|Rotation=100|Variant=100|Revision=100|Trenz-Stock=100|Value=100|AN=100|Case=100|Mixed=100|Preferred=100|Technology=100|Tolerance=100|Trenz-Article-Number=100|Voltage=100|Ref-X(mm)=100|Ref-Y(mm)=100|H-ART=100|Storage-Temperature=100|Temperature-Range=100
+OutputType15=Assembly
+OutputName15=AD
+OutputCategory15=Assembly
+OutputDocumentPath15=
+OutputVariantName15=A
+OutputEnabled15=1
+OutputEnabled15_OutputMedium1=0
+OutputEnabled15_OutputMedium2=6
+OutputEnabled15_OutputMedium3=0
+OutputEnabled15_OutputMedium4=0
+OutputEnabled15_OutputMedium5=0
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.13|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration15_Name1=OutputConfigurationParameter1
+Configuration15_Item1=DesignatorDisplayMode=Logical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration15_Name2=OutputConfigurationParameter2
+Configuration15_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration15_Name3=OutputConfigurationParameter3
+Configuration15_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration15_Name4=OutputConfigurationParameter4
+Configuration15_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration15_Name5=OutputConfigurationParameter5
+Configuration15_Item5=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=True|Name=Bot Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration15_Name6=OutputConfigurationParameter6
+Configuration15_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration15_Name7=OutputConfigurationParameter7
+Configuration15_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical14|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+PcbPrintPreferences15=
+OutputType16=Assembly
+OutputName16=AD
+OutputCategory16=Assembly
+OutputDocumentPath16=
+OutputVariantName16=S001
+OutputEnabled16=1
+OutputEnabled16_OutputMedium1=0
+OutputEnabled16_OutputMedium2=7
+OutputEnabled16_OutputMedium3=0
+OutputEnabled16_OutputMedium4=0
+OutputEnabled16_OutputMedium5=0
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.13|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration16_Name1=OutputConfigurationParameter1
+Configuration16_Item1=DesignatorDisplayMode=Logical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration16_Name2=OutputConfigurationParameter2
+Configuration16_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration16_Name3=OutputConfigurationParameter3
+Configuration16_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration16_Name4=OutputConfigurationParameter4
+Configuration16_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration16_Name5=OutputConfigurationParameter5
+Configuration16_Item5=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=True|Name=Bot Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration16_Name6=OutputConfigurationParameter6
+Configuration16_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+Configuration16_Name7=OutputConfigurationParameter7
+Configuration16_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical14|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\CR00100.PcbDoc
+PcbPrintPreferences16=
+
+[PublishSettings]
+OutputFilePath2=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\manufacturing reports\PDF\
+ReleaseManaged2=0
+OutputBasePath2=.\manufacturing reports\
+OutputPathMedia2=[Media Type]
+OutputPathMediaValue2=
+OutputPathOutputer2=
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=pdf
+OutputFileNameMulti2==OutputName+'-'+ProjectName+'-'+Revision+'-'+VariantName
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2=
+OpenOutput2=0
+PromptOverwrite2=0
+PublishMethod2=1
+ZoomLevel2=50
+FitSCHPrintSizeToDoc2=0
+FitPCBPrintSizeToDoc2=0
+GenerateNetsInfo2=1
+MarkPins2=1
+MarkNetLabels2=1
+MarkPortsId2=1
+GenerateTOC2=1
+ShowComponentParameters2=1
+GlobalBookmarks2=0
+PDFACompliance2=Disabled
+PDFVersion2=Default
+OutputFilePath3=B:\SVN\OtherDoc\Vorlagen\PRJ-TE0723\current\hw\pcb\Project Outputs for TE0723\
+ReleaseManaged3=0
+OutputBasePath3=Project Outputs for TE0723
+OutputPathMedia3=
+OutputPathMediaValue3=
+OutputPathOutputer3=[Output Type]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+OutputFileName3=
+OutputFileNameMulti3=
+UseOutputNameForMulti3=1
+OutputFileNameSpecial3=
+OpenOutput3=1
+PromptOverwrite3=1
+PublishMethod3=2
+ZoomLevel3=50
+FitSCHPrintSizeToDoc3=1
+FitPCBPrintSizeToDoc3=1
+GenerateNetsInfo3=1
+MarkPins3=1
+MarkNetLabels3=1
+MarkPortsId3=1
+WebOutputMediumType3=FS
+OutputDirectory3=.\WebOutput
+OutputFilePath4=B:\SVN\osh\CRUVI\CR00103\current\hw\pcb\manufacturing reports\
+ReleaseManaged4=0
+OutputBasePath4=manufacturing reports\
+OutputPathMedia4=
+OutputPathMediaValue4=
+OutputPathOutputer4=[Output Type]
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=
+OutputFileName4=
+OutputFileNameMulti4==OutputName+Copy(ProjectName,3,6)+'-'+Revision
+UseOutputNameForMulti4=0
+OutputFileNameSpecial4=
+OpenOutput4=0
+OutputFilePath5=B:\SVN\osh\CRUVI\CR00103\current\hw\pcb\manufacturing reports\
+ReleaseManaged5=0
+OutputBasePath5=manufacturing reports\
+OutputPathMedia5=
+OutputPathMediaValue5=
+OutputPathOutputer5=[Output Type]
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=
+OutputFileName5=
+OutputFileNameMulti5==OutputName+'-'+ProjectName+'-'+Revision+'-'+VariantName
+UseOutputNameForMulti5=0
+OutputFileNameSpecial5=
+OpenOutput5=0
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=B:\SVN\osh\CRUVI\CR00100\current\hw\pcb\manufacturing reports\PDF\
+OpenOutputs2=0
+RelativeOutputPath3=B:\SVN\OtherDoc\Vorlagen\PRJ-TE0723\current\hw\pcb\Project Outputs for TE0723\
+OpenOutputs3=1
+RelativeOutputPath4=B:\SVN\osh\CRUVI\CR00103\current\hw\pcb\manufacturing reports\
+OpenOutputs4=0
+AddToProject4=0
+TimestampFolder4=0
+UseOutputName4=0
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
+RelativeOutputPath5=B:\SVN\osh\CRUVI\CR00103\current\hw\pcb\manufacturing reports\
+OpenOutputs5=0
+AddToProject5=0
+TimestampFolder5=0
+UseOutputName5=1
+OpenODBOutput5=0
+OpenGerberOutput5=0
+OpenNCDrillOutput5=0
+OpenIPCOutput5=0
+EnableReload5=0
+
