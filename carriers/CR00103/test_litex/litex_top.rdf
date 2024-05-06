@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="3.2.0.18.0" title="litex_top" device="LFD2NX-40-9BG196C" performance_grade="9_High-Performance_1.0V" default_implementation="impl_1">
+    <Options/>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="synplify" default_strategy="Strategy1">
+        <Options>
+            <Option name="include path" value="src"/>
+            <Option name="top" value="top"/>
+        </Options>
+        <Source name="src/top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="src/VexRiscv_Min.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="mypll/mypll.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="litex_top.rvl" type="Reveal" type_short="Reveal" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="test.rva" type="Reveal Analyzer Project File" type_short="RVA">
+            <Options/>
+        </Source>
+        <Source name="top.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="top/top.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="litex_top1.sty"/>
+</RadiantProject>
