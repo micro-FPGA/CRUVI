@@ -1,0 +1,9 @@
+ldc_set_location -site {B1} [get_ports clk]
+ldc_set_location -site {C11} [get_ports serial_rx]
+ldc_set_location -site {F11} [get_ports serial_tx]
+ldc_set_location -site {A8} [get_ports user_led0]
+ldc_set_location -site {B8} [get_ports user_led1]
+ldc_set_location -site {G5} [get_ports user_led2]
+ldc_set_sysconfig {DONE_PORT=DISABLE MCCLK_FREQ=56.2 INITN_PORT=ENABLE}
+ldc_set_location -site {A7} [get_ports user_led3]
+ldc_set_port -iobuf {PULLMODE=UP IO_TYPE=LVCMOS33} [get_ports user_led3]
